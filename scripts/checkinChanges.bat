@@ -12,6 +12,18 @@ cd StarFacerData
 echo.
 echo.
 
+echo Full diff:
+
+echo.
+
+..\PortableGit\cmd\git --no-pager diff --staged overlays sprites objects categories animations transitions ground music sounds soundsRaw scenes faces tutorialMaps
+
+echo.
+echo.
+
+echo Close window to cancel, or...
+echo.
+
 set /P commitMessage=Enter commit message:
 
 ..\PortableGit\cmd\git commit -m "%commitMessage%"
