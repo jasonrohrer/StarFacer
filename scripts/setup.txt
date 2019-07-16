@@ -1,0 +1,37 @@
+
+
+Directory structure:
+
+EditorWorking\
+  StarFacerData\
+  server\
+  PortableGit\
+
+
+Copy OneLife/server/* to server/
+
+StarFacerData is full checkout of data
+
+Copy StarFacerData/scripts/* to top level of EditorWorking/
+
+
+Copy these files/folders from OneLife/gameSource/ into StarFacerData directory:
+
+ EditOneLife.exe
+ graphics/
+ language.txt
+ languages/
+ OneLife.exe
+ otherSounds/
+ reverbImpulseResponse.aiff
+ settings/
+ us_english_60.txt
+ wordList.txt
+
+
+Also put the following DLLs into the StarFacerData directory:
+
+ libgcc_s_dw2-1.dll
+ libpng14.dll
+ SDL.dll
+ zlib1.dll
