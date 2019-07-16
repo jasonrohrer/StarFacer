@@ -29,6 +29,10 @@ Copy these files/folders from OneLife/gameSource/ into StarFacerData directory:
  wordList.txt
 
 
+If using a different data set, don't forget to clear various client emotion
+settings.
+
+
 Also put the following DLLs into the StarFacerData directory:
 
  libgcc_s_dw2-1.dll
